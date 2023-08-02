@@ -7,14 +7,6 @@ const END_POINTS = {
     info: 'images/search',
 };
 
-// export function fetchBreeds() {
-//   return axios.get(`${BASE_URL}/breeds`)
-// };
-  
-// export function fetchCatByBreed(breedId) {
-//   return axios.get(`${BASE_URL}/images/search?breed_ids=${breedId}`)
-// };
-
 export const fetchBreeds = () => {
     return axios(`${END_POINTS.breeds}`);
 };
